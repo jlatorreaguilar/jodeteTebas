@@ -23,6 +23,11 @@ BASE_IPNS = (
 URL_CANALES      = f"{BASE_IPNS}/hashes.txt"
 URL_CANALES_M3U  = f"{BASE_IPNS}/hashes_acestream.m3u"
 URL_CANALES_ALT  = f"{BASE_IPNS}/hashes_kodi.m3u"
+# M3U con fuentes adicionales: NEW ERA, NEW LOOP, SPORT TV, etc.
+URL_CANALES_MULTI = (
+    "https://dweb.link/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004"
+    "/data/listas/lista_fuera_iptv.m3u"
+)
 URL_AGENDA = (
     "https://raw.githubusercontent.com/ezdakit/zukzeuk_listas/refs/heads/main"
     "/zz_eventos/zz_eventos_all_ott.m3u"
@@ -143,6 +148,54 @@ def build_canales(text):
 
 
 # ---------------------------------------------------------------------------
+# Parsear lista_fuera_iptv.m3u  (formato m3u con group-title y --> FUENTE)
+# Combina los canales en el dict de categorias existente
+# ---------------------------------------------------------------------------
+
+def merge_m3u_canales(text, categorias):
+    """Añade a `categorias` los canales del M3U que no sean ya de ELCANO puro."""
+    # Construir índice catálogo existente para busca rápida
+    cat_index = {c["nombre"]: c["canales"] for c in categorias}
+
+    # Patrón: #EXTINF con group-title="CAT", NOMBRE --> FUENTE\nacestream://ID
+    patron = re.compile(
+        r'#EXTINF[^\n]*group-title="([^"]+)"[^\n]*,\s*(.+?)\s*\n\s*(acestream://[0-9a-f]+)',
+        re.IGNORECASE | re.MULTILINE,
+    )
+    nuevos = 0
+    for m in patron.finditer(text):
+        cat     = m.group(1).strip().upper()
+        nombre  = m.group(2).strip()
+        ace_url = m.group(3).strip()
+        ace_id  = ace_url.replace("acestream://", "")
+
+        if len(ace_id) != 40 or not re.fullmatch(r"[0-9a-f]+", ace_id):
+            continue
+
+        # Extraer fuente del nombre: "CANAL --> FUENTE" → fuente
+        fuente_match = re.search(r"-->\s*(.+)$", nombre)
+        fuente = fuente_match.group(1).strip() if fuente_match else "ELCANO"
+
+        # Si ya viene de ELCANO ya lo tenemos (fue añadido por build_canales)
+        if fuente.upper() == "ELCANO":
+            continue
+
+        if cat not in cat_index:
+            categorias.append({"nombre": cat, "canales": []})
+            cat_index[cat] = categorias[-1]["canales"]
+
+        cat_index[cat].append({
+            "nombre": nombre,
+            "acestream_id": ace_id,
+            "short_id": ace_id[:4],
+            "fuente": fuente,
+        })
+        nuevos += 1
+
+    return nuevos
+
+
+# ---------------------------------------------------------------------------
 # Parsear m3u de agenda
 # ---------------------------------------------------------------------------
 
@@ -213,13 +266,25 @@ def main():
 
     if texto_canales:
         categorias, total = build_canales(texto_canales)
-        with open("data/canales.json", "w", encoding="utf-8") as f:
-            json.dump({"categorias": categorias, "total": total}, f,
-                      ensure_ascii=False, indent=2)
-        print(f"  ✓ {total} canales en {len(categorias)} categorías guardados en data/canales.json")
+        print(f"  ELCANO: {total} canales en {len(categorias)} categorías")
     else:
         print("  ✗ No se pudo obtener la lista de canales", file=sys.stderr)
         sys.exit(1)
+
+    # Añadir fuentes adicionales: NEW ERA, NEW LOOP, SPORT TV, etc.
+    print("Descargando lista_fuera_iptv.m3u (NEW ERA / NEW LOOP / SPORT TV)...")
+    texto_multi = fetch(URL_CANALES_MULTI, timeout=30)
+    if texto_multi:
+        nuevos = merge_m3u_canales(texto_multi, categorias)
+        print(f"  + {nuevos} canales adicionales de otras fuentes")
+    else:
+        print("  WARN: no se pudo obtener lista_fuera_iptv.m3u", file=sys.stderr)
+
+    total_final = sum(len(c["canales"]) for c in categorias)
+    with open("data/canales.json", "w", encoding="utf-8") as f:
+        json.dump({"categorias": categorias, "total": total_final}, f,
+                  ensure_ascii=False, indent=2)
+    print(f"  ✓ {total_final} canales en {len(categorias)} categorías guardados en data/canales.json")
 
     # --- Agenda ---
     print("Descargando agenda de eventos ELCANO...")

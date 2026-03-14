@@ -5,12 +5,6 @@
       "canales": [
         {
           "nombre": "ACB EVENTO 01 720p",
-          "acestream_id": "8faa686a99697b99261346e479ead172b1d9d5d2",
-          "short_id": "8faa",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "ACB EVENTO 01 720p",
           "acestream_id": "23bee556c002d0726c1f0cac98a1901cff0a9239",
           "short_id": "23be",
           "fuente": "ELCANO"
@@ -19,12 +13,6 @@
           "nombre": "ACB EVENTO 01",
           "acestream_id": "53962d7fb865aff73b34a3afb2905cd492f60d75",
           "short_id": "5396",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "ACB EVENTO 01",
-          "acestream_id": "0995b9b77ac6198dd92141369707fb99da09bdb2",
-          "short_id": "0995",
           "fuente": "ELCANO"
         },
         {
@@ -49,6 +37,18 @@
           "nombre": "ACB EVENTO 03",
           "acestream_id": "02ec118ee4586d96df9115ffc486be9a499d00d9",
           "short_id": "02ec",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "ACB EVENTO 01 ** --> ELCANO",
+          "acestream_id": "0995b9b77ac6198dd92141369707fb99da09bdb2",
+          "short_id": "0995",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "ACB EVENTO 01 720p",
+          "acestream_id": "8faa686a99697b99261346e479ead172b1d9d5d2",
+          "short_id": "8faa",
           "fuente": "ELCANO"
         }
       ]
@@ -102,12 +102,6 @@
           "nombre": "DAZN 3",
           "acestream_id": "e1ccce973c71547a8acda770885cb1c30a9cf3e1",
           "short_id": "e1cc",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "DAZN 4",
-          "acestream_id": "9ced16b2055c99bf89c26e678e315e1b01d3734c",
-          "short_id": "9ced",
           "fuente": "ELCANO"
         },
         {
@@ -223,6 +217,18 @@
           "acestream_id": "7e90956539f4e1318a63f3960e4f75c7c7c5a3b8",
           "short_id": "7e90",
           "fuente": "SPORT TV"
+        },
+        {
+          "nombre": "DAZN 4 --> ELCANO",
+          "acestream_id": "d669c6cee7173a1c8994075f7050a6526655b1dc",
+          "short_id": "d669",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "DAZN 4 --> ELCANO",
+          "acestream_id": "9ced16b2055c99bf89c26e678e315e1b01d3734c",
+          "short_id": "9ced",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -350,14 +356,20 @@
         },
         {
           "nombre": "DAZN F1 720p",
-          "acestream_id": "ed6188dcbb491efeb2092c1a6199226c27f61727",
-          "short_id": "ed61",
+          "acestream_id": "88d7cdd80be237ae21314f7f1b6582991498e8ba",
+          "short_id": "88d7",
           "fuente": "ELCANO"
         },
         {
-          "nombre": "DAZN F1 720p",
-          "acestream_id": "88d7cdd80be237ae21314f7f1b6582991498e8ba",
-          "short_id": "88d7",
+          "nombre": "DAZN F1 1080p",
+          "acestream_id": "d719181097d256073844390b3e094fbcb1bceaa4",
+          "short_id": "d719",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "DAZN F1 1080p",
+          "acestream_id": "895d08633bb22c2573281655cf3ca44de476cc73",
+          "short_id": "895d",
           "fuente": "ELCANO"
         },
         {
@@ -443,6 +455,12 @@
           "acestream_id": "d65257bb934b73647374224fd62d836815804be2",
           "short_id": "d652",
           "fuente": "SPORT TV"
+        },
+        {
+          "nombre": "DAZN F1 --> ELCANO",
+          "acestream_id": "ed6188dcbb491efeb2092c1a6199226c27f61727",
+          "short_id": "ed61",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -564,14 +582,14 @@
         },
         {
           "nombre": "M+ LaLiga 720p",
-          "acestream_id": "f863873de9f7b2996dde19a0657dd89835af3007",
-          "short_id": "f863",
+          "acestream_id": "3ace1463a7cad979c3a4002b245487e9982e9f1a",
+          "short_id": "3ace",
           "fuente": "ELCANO"
         },
         {
           "nombre": "M+ LaLiga 720p",
-          "acestream_id": "3ace1463a7cad979c3a4002b245487e9982e9f1a",
-          "short_id": "3ace",
+          "acestream_id": "f863873de9f7b2996dde19a0657dd89835af3007",
+          "short_id": "f863",
           "fuente": "ELCANO"
         },
         {
@@ -588,8 +606,8 @@
         },
         {
           "nombre": "M+ LaLiga 1080p",
-          "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74",
-          "short_id": "4b52",
+          "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947",
+          "short_id": "00c9",
           "fuente": "ELCANO"
         },
         {
@@ -600,14 +618,8 @@
         },
         {
           "nombre": "M+ LaLiga 1080p",
-          "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-          "short_id": "00c9",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "M+ LaLiga 2 720p",
-          "acestream_id": "ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8",
-          "short_id": "ad42",
+          "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74",
+          "short_id": "4b52",
           "fuente": "ELCANO"
         },
         {
@@ -618,20 +630,14 @@
         },
         {
           "nombre": "M+ LaLiga 2",
-          "acestream_id": "b45cfe568e106a7df65c950805d6f123c989ce84",
-          "short_id": "b45c",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "M+ LaLiga 2",
           "acestream_id": "2c01306506e268ba726f5c30222923b6168a5404",
           "short_id": "2c01",
           "fuente": "ELCANO"
         },
         {
-          "nombre": "M+ LaLiga 3 1080p",
-          "acestream_id": "7ad14386deef2f45ffe17d30a631dbf79b6a1a87",
-          "short_id": "7ad1",
+          "nombre": "M+ LaLiga 2",
+          "acestream_id": "b45cfe568e106a7df65c950805d6f123c989ce84",
+          "short_id": "b45c",
           "fuente": "ELCANO"
         },
         {
@@ -771,6 +777,24 @@
           "acestream_id": "22178d72e0f255dedd7e56f9474fea879289a6f1",
           "short_id": "2217",
           "fuente": "SPORT TV"
+        },
+        {
+          "nombre": "DAZN LA LIGA 2 --> ELCANO",
+          "acestream_id": "a70a1605f69c8379e04094df96922a42adfbb431",
+          "short_id": "a70a",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ LALIGA 2 --> ELCANO",
+          "acestream_id": "ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8",
+          "short_id": "ad42",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ LaLiga 3 1080p",
+          "acestream_id": "7ad14386deef2f45ffe17d30a631dbf79b6a1a87",
+          "short_id": "7ad1",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -797,14 +821,14 @@
         },
         {
           "nombre": "M+ Liga de Campeones 1080p",
-          "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e",
-          "short_id": "9db0",
+          "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9",
+          "short_id": "97df",
           "fuente": "ELCANO"
         },
         {
           "nombre": "M+ Liga de Campeones 1080p",
-          "acestream_id": "97df5b7824948972d041d8ca2a4d29c90b641bc9",
-          "short_id": "97df",
+          "acestream_id": "9db029dff6a9c637d1f670e78dbc1a479b9b406e",
+          "short_id": "9db0",
           "fuente": "ELCANO"
         },
         {
@@ -814,21 +838,15 @@
           "fuente": "ELCANO"
         },
         {
-          "nombre": "M+ Liga de Campeones 2 720p",
-          "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e",
-          "short_id": "38f7",
+          "nombre": "M+ Liga de Campeones 2 1080p",
+          "acestream_id": "bb26037a253866d341778181eff5c8637240d615",
+          "short_id": "bb26",
           "fuente": "ELCANO"
         },
         {
           "nombre": "M+ Liga de Campeones 2 1080p",
           "acestream_id": "74ab4e4ec7e2da001f473ca40893b7307b8029c5",
           "short_id": "74ab",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "M+ Liga de Campeones 2 1080p",
-          "acestream_id": "bb26037a253866d341778181eff5c8637240d615",
-          "short_id": "bb26",
           "fuente": "ELCANO"
         },
         {
@@ -875,14 +893,20 @@
         },
         {
           "nombre": "M+ Liga de Campeones 5 1080p",
+          "acestream_id": "5bed693c6a22de55f1061c509bba5e3aeb2ea2aa",
+          "short_id": "5bed",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ Liga de Campeones 5 1080p",
           "acestream_id": "5620c0ce3dcbf14a6375cb2c2d681207f45eb97d",
           "short_id": "5620",
           "fuente": "ELCANO"
         },
         {
-          "nombre": "M+ Liga de Campeones 5 1080p",
-          "acestream_id": "5bed693c6a22de55f1061c509bba5e3aeb2ea2aa",
-          "short_id": "5bed",
+          "nombre": "M+ Liga de Campeones 6 720p",
+          "acestream_id": "54e971e70ed1e79a073a3aae410aed7818799112",
+          "short_id": "54e9",
           "fuente": "ELCANO"
         },
         {
@@ -895,6 +919,12 @@
           "nombre": "M+ Liga de Campeones 6 1080p",
           "acestream_id": "14bedc2ff054ae16c0fae99cfeb9dcda21ac68a0",
           "short_id": "14be",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ Liga de Campeones 6 1080p",
+          "acestream_id": "a3e8b1eac4866685ed52eb448b0891d0cb0ed031",
+          "short_id": "a3e8",
           "fuente": "ELCANO"
         },
         {
@@ -1058,18 +1088,30 @@
           "acestream_id": "85421919c34bb222ec6363f66c1eb88e999d4ff3",
           "short_id": "8542",
           "fuente": "NEW ERA"
+        },
+        {
+          "nombre": "LIGA DE CAMPEONES 7 --> ELCANO",
+          "acestream_id": "95ced66c1268717c19c1e3e020e3b23b0f02e504",
+          "short_id": "95ce",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "LIGA DE CAMPEONES 2 --> ELCANO",
+          "acestream_id": "47188da7d2e4beaee82cff174f223fdd23f78fa6",
+          "short_id": "4718",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ Liga de Campeones 2 720p",
+          "acestream_id": "38f7b2044e549df2039ff26cefa6f9a60c854d5e",
+          "short_id": "38f7",
+          "fuente": "ELCANO"
         }
       ]
     },
     {
       "nombre": "MOVISTAR",
       "canales": [
-        {
-          "nombre": "MOVISTAR PLUS 720p",
-          "acestream_id": "d23497596720b47b096ec0f850d6d26a19d1a336",
-          "short_id": "d234",
-          "fuente": "ELCANO"
-        },
         {
           "nombre": "MOVISTAR PLUS 1080p",
           "acestream_id": "ed74406ccdb3c21941b919db6bffca7f1de015bb",
@@ -1153,6 +1195,12 @@
           "acestream_id": "d48b299bbcd811cfd14159224bf5012a305021c1",
           "short_id": "d48b",
           "fuente": "NEW ERA"
+        },
+        {
+          "nombre": "MOVISTAR PLUS 720p",
+          "acestream_id": "d23497596720b47b096ec0f850d6d26a19d1a336",
+          "short_id": "d234",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -1203,14 +1251,14 @@
         },
         {
           "nombre": "M+ Deportes 2 1080p",
-          "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56",
-          "short_id": "8909",
+          "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0",
+          "short_id": "f0ee",
           "fuente": "ELCANO"
         },
         {
-          "nombre": "M+ Deportes 2 1080p",
-          "acestream_id": "f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0",
-          "short_id": "f0ee",
+          "nombre": "M+ Deportes 3 720p",
+          "acestream_id": "e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d",
+          "short_id": "e9ce",
           "fuente": "ELCANO"
         },
         {
@@ -1494,6 +1542,18 @@
           "acestream_id": "651d6be899d1fafa107a265a9dc00ff914c1b548",
           "short_id": "651d",
           "fuente": "NEW ERA"
+        },
+        {
+          "nombre": "MOVISTAR DEPORTES 3 --> ELCANO",
+          "acestream_id": "799c6b5ee1cf41af077d14e3f9c45a32697eb903",
+          "short_id": "799c",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ Deportes 2 1080p",
+          "acestream_id": "890901fa742b19d8808cf49f19db2d3016437c56",
+          "short_id": "8909",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -1524,12 +1584,6 @@
           "fuente": "ELCANO"
         },
         {
-          "nombre": "CUATRO 1080p",
-          "acestream_id": "72fe18250142433fe1d921fd76d99f3f1d2e2c00",
-          "short_id": "72fe",
-          "fuente": "ELCANO"
-        },
-        {
           "nombre": "La 1 TVE 720p",
           "acestream_id": "02622fa2fab63847d88dc14fd9fa5c2fc35de8a8",
           "short_id": "0262",
@@ -1537,14 +1591,14 @@
         },
         {
           "nombre": "La 1 TVE",
-          "acestream_id": "f379d93b71731f1bbd0845d1b1e4dc37b5b1fd92",
-          "short_id": "f379",
+          "acestream_id": "1fddc49dd11ae7bb16f2b94648a9b4f0efc80349",
+          "short_id": "1fdd",
           "fuente": "ELCANO"
         },
         {
           "nombre": "La 1 TVE",
-          "acestream_id": "1fddc49dd11ae7bb16f2b94648a9b4f0efc80349",
-          "short_id": "1fdd",
+          "acestream_id": "f379d93b71731f1bbd0845d1b1e4dc37b5b1fd92",
+          "short_id": "f379",
           "fuente": "ELCANO"
         },
         {
@@ -1557,12 +1611,6 @@
           "nombre": "Telecinco 1080p",
           "acestream_id": "3840043b15fd7ac7846004d151ea7b51800fffc0",
           "short_id": "3840",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "Telecinco 1080p",
-          "acestream_id": "3d376333ee90d6db3d413fc5764ef635882076f5",
-          "short_id": "3d37",
           "fuente": "ELCANO"
         },
         {
@@ -1594,6 +1642,18 @@
           "acestream_id": "9934906503661142f97a044ae1509a294057c2ed",
           "short_id": "9934",
           "fuente": "NEW ERA"
+        },
+        {
+          "nombre": "CUATRO --> ELCANO",
+          "acestream_id": "72fe18250142433fe1d921fd76d99f3f1d2e2c00",
+          "short_id": "72fe",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "Telecinco 1080p",
+          "acestream_id": "3d376333ee90d6db3d413fc5764ef635882076f5",
+          "short_id": "3d37",
+          "fuente": "ELCANO"
         }
       ]
     },
@@ -1656,14 +1716,14 @@
         },
         {
           "nombre": "RALLY TV",
-          "acestream_id": "b6ca8e022947548af61d76660b6b6f799a778d31",
-          "short_id": "b6ca",
+          "acestream_id": "12404b00d2787995d639ccf71a80da5d39d153f9",
+          "short_id": "1240",
           "fuente": "ELCANO"
         },
         {
           "nombre": "RALLY TV",
-          "acestream_id": "12404b00d2787995d639ccf71a80da5d39d153f9",
-          "short_id": "1240",
+          "acestream_id": "b6ca8e022947548af61d76660b6b6f799a778d31",
+          "short_id": "b6ca",
           "fuente": "ELCANO"
         },
         {
@@ -1676,6 +1736,12 @@
           "nombre": "Teledeporte 720p",
           "acestream_id": "b0d1489c9f3239349665ad5ab423363f2b02e5ae",
           "short_id": "b0d1",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "Teledeporte 1080p",
+          "acestream_id": "b35b3eb8e22365bf3469efd6d1f3b82618a6e18a",
+          "short_id": "b35b",
           "fuente": "ELCANO"
         },
         {
@@ -1799,12 +1865,6 @@
         },
         {
           "nombre": "Dazn MotoGP 1080p",
-          "acestream_id": "e18b79bce27f6ee8eef9a1fc811bb5f80e4b558c",
-          "short_id": "e18b",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "Dazn MotoGP 1080p",
           "acestream_id": "342ca6975a4884d81f9fec5c4085a47060bd2028",
           "short_id": "342c",
           "fuente": "ELCANO"
@@ -1819,6 +1879,12 @@
           "nombre": "Sky Sport MotoGP 1080p",
           "acestream_id": "0c30255a5b56d67fbd253753b86d8afea0ddeb00",
           "short_id": "0c30",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "Dazn MotoGP 1080p",
+          "acestream_id": "e18b79bce27f6ee8eef9a1fc811bb5f80e4b558c",
+          "short_id": "e18b",
           "fuente": "ELCANO"
         }
       ]
@@ -3038,5 +3104,5 @@
       ]
     }
   ],
-  "total": 487
+  "total": 481
 }

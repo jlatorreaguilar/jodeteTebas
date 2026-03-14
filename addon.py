@@ -6,14 +6,9 @@ import sys
 import os
 import json
 
-try:
-    from urllib.parse import urlencode, parse_qsl, unquote_plus, quote_plus
-    from urllib.request import urlopen, Request
-    from urllib.error import URLError, HTTPError
-except ImportError:
-    from urllib import urlencode, unquote_plus, quote_plus
-    from urllib2 import urlopen, Request, URLError, HTTPError
-    from urlparse import parse_qsl
+from urllib.parse import urlencode, parse_qsl, unquote_plus, quote_plus
+from urllib.request import urlopen, Request
+from urllib.error import URLError, HTTPError
 
 import xbmc
 import xbmcgui

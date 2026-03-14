@@ -2,9 +2,6 @@
 <addons>
 
     <addon id="plugin.video.jodete_tebas" name="[COLOR FF00FF00]Jodete[/COLOR] [COLOR FFFF0000]Tebas[/COLOR]" version="1.0.0" provider-name="Gunter25">
-        <requires>
-            <import addon="xbmc.python" version="2.25.0"/>
-        </requires>
         <extension point="xbmc.python.pluginsource" library="addon.py">
             <provides>video</provides>
         </extension>

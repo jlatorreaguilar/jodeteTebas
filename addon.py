@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Plugin: Jodete Tebas
+# Plugin: Nada que ver
 # Addon de canales y agenda de fútbol vía Acestream para Kodi
 
 import sys
@@ -46,8 +46,8 @@ def _get_setting(key, default=''):
 
 ACESTREAM_PORT   = _get_setting('acestream_port', '6878')
 ACESTREAM_PATH   = _get_setting('acestream_path', '')   # ruta de instalación en PC (opcional)
-DATA_URL_CANALES = 'https://jlatorreaguilar.github.io/jodeteTebas/data/canales.json'
-DATA_URL_AGENDA  = 'https://jlatorreaguilar.github.io/jodeteTebas/data/agenda.json'
+DATA_URL_CANALES = 'https://jlatorreaguilar.github.io/nada_que_ver/data/canales.json'
+DATA_URL_AGENDA  = 'https://jlatorreaguilar.github.io/nada_que_ver/data/agenda.json'
 
 AGENDA_URLS = [
     'https://ciriaco.netlify.app/',

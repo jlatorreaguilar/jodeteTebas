@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nada_que_ver" name="Nada que ver Repo" version="1.0.0" provider-name="Gunter25">
+<addon id="repository.nada_que_ver" name="Nada que ver Repo" version="1.0.0" provider-name="jlatorreaguilar">
     <extension point="xbmc.addon.repository" name="Nada que ver Repo">
         <dir>
             <info compressed="false">https://jlatorreaguilar.github.io/nada_que_ver/addons.xml</info>
@@ -10,7 +10,7 @@
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio oficial de Nada que ver</summary>
         <description>
-            Repositorio oficial del addon Nada que ver creado y mantenido por Gunter25.
+            Repositorio oficial del addon Nada que ver creado y mantenido por jlatorreaguilar.
             Canales y Agenda de fútbol vía Acestream.
         </description>
         <platform>all</platform>

@@ -75,14 +75,14 @@
         },
         {
           "nombre": "DAZN 1 --> ELCANO",
-          "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
-          "short_id": "7ba1",
+          "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62",
+          "short_id": "9afc",
           "fuente": "ELCANO"
         },
         {
           "nombre": "DAZN 1 --> ELCANO",
-          "acestream_id": "9afc89481b721ce6c326c85e47148676077b8e62",
-          "short_id": "9afc",
+          "acestream_id": "7ba1f321f4d0791b7ebd42f41a07c1cd1479e784",
+          "short_id": "7ba1",
           "fuente": "ELCANO"
         },
         {
@@ -313,20 +313,8 @@
         },
         {
           "nombre": "EUROSPORT 2 --> ELCANO",
-          "acestream_id": "24f940fef7e270b6b3ae5d9dc713a80c8345cfba",
-          "short_id": "24f9",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "EUROSPORT 2 --> ELCANO",
           "acestream_id": "f5908690485ae2facecf3074446ba4315f07a193",
           "short_id": "f590",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "EUROSPORT 2 --> ELCANO",
-          "acestream_id": "d01d255aaaf2fb91c0a8c98a826b4bd4769d81c1",
-          "short_id": "d01d",
           "fuente": "ELCANO"
         },
         {
@@ -884,6 +872,12 @@
         },
         {
           "nombre": "M+ LALIGA --> ELCANO",
+          "acestream_id": "f863873de9f7b2996dde19a0657dd89835af3007",
+          "short_id": "f863",
+          "fuente": "ELCANO"
+        },
+        {
+          "nombre": "M+ LALIGA --> ELCANO",
           "acestream_id": "14b6cd8769cd485f2cffdca64be9698d9bfeac58",
           "short_id": "14b6",
           "fuente": "ELCANO"
@@ -896,8 +890,8 @@
         },
         {
           "nombre": "M+ LALIGA --> ELCANO",
-          "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947",
-          "short_id": "00c9",
+          "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74",
+          "short_id": "4b52",
           "fuente": "ELCANO"
         },
         {
@@ -908,8 +902,8 @@
         },
         {
           "nombre": "M+ LALIGA --> ELCANO",
-          "acestream_id": "4b528d10eaad747ddf52251206177573ee3e9f74",
-          "short_id": "4b52",
+          "acestream_id": "00c9bc9c5d7d87680a5a6bed349edfa775a89947",
+          "short_id": "00c9",
           "fuente": "ELCANO"
         },
         {
@@ -1841,6 +1835,12 @@
           "fuente": "NEW ERA"
         },
         {
+          "nombre": "LA 1 --> ELCANO",
+          "acestream_id": "02622fa2fab63847d88dc14fd9fa5c2fc35de8a8",
+          "short_id": "0262",
+          "fuente": "ELCANO"
+        },
+        {
           "nombre": "LA 2 FHD --> NEW ERA",
           "acestream_id": "9934906503661142f97a044ae1509a294057c2ed",
           "short_id": "9934",
@@ -1941,6 +1941,12 @@
           "fuente": "ELCANO"
         },
         {
+          "nombre": "Dazn MotoGP FHDp * --> ELCANO",
+          "acestream_id": "20d4b3586bb822c3618cf8fb665a304869c5e1a5",
+          "short_id": "20d4",
+          "fuente": "ELCANO"
+        },
+        {
           "nombre": "Dazn MotoGP SDp * --> ELCANO",
           "acestream_id": "ac33342ccf7d40d46174229085461d95000b9137",
           "short_id": "ac33",
@@ -1962,12 +1968,6 @@
           "nombre": "Dazn MotoGP SDp ** --> ELCANO",
           "acestream_id": "129c707eb4854171d178a566f36d90b7f2b5e624",
           "short_id": "129c",
-          "fuente": "ELCANO"
-        },
-        {
-          "nombre": "Esport3 FHDp * --> ELCANO",
-          "acestream_id": "21bc11d195f5753c396e390c215952d21541d04d",
-          "short_id": "21bc",
           "fuente": "ELCANO"
         },
         {
